@@ -1,0 +1,29 @@
+#movies img, #movie img{
+  width: 100%;
+}
+
+.thumbnail {
+  margin-bottom: 30px;
+}
+
+.list-group {
+  margin-bottom: 40px;
+}
+
+#movieContainer {
+  margin: 20px 0 20px 0;
+}
+
+#movieTitle {
+  margin-right: 20px;
+}
+
+@media(min-width: 960px) {
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+}
